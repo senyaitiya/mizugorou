@@ -72,5 +72,3 @@ controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'
     });
 
 });
-
-});
