@@ -17,7 +17,9 @@ controller.spawn({
     }
 });
 
-// say hi
-controller.hears('hi',['direct_message','direct_mention','mention'],function(bot,message) {
-    bot.reply(message,'hi');
+controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'], ['direct_message','direct_mention','mention'], function (bot, message) {
+
+    // bot.reply()で、botに発言をさせます。
+    bot.reply(message, ["ｷｭｴｰ","ｺﾞﾛｰ！","ｺﾞﾛ！","ﾐｽﾞｺﾞﾛｰ","ｷｭｷｭ","ﾐｽﾞｰ" ,"ﾐｽﾞｰｯ","ｺﾞﾘｮｰ","ｺﾞﾘｮｰｯ"]);
+
 });
