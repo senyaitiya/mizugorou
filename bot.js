@@ -58,7 +58,7 @@ controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'
 
 controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
 
-    bot.reply(message, ["ｷｭｴｰ","ｺﾞﾛｰ！","ｺﾞﾛ！","ﾐｽﾞｺﾞﾛｰ","ｷｭｷｭ","ﾐｽﾞｰ" ,"ﾐｽﾞｰｯ","ｺﾞﾘｮｰ","ｺﾞﾘｮｰｯ"]');
+    bot.reply(message, ["ｷｭｴｰ","ｺﾞﾛｰ！","ｺﾞﾛ！","ﾐｽﾞｺﾞﾛｰ","ｷｭｷｭ","ﾐｽﾞｰ" ,"ﾐｽﾞｰｯ","ｺﾞﾘｮｰ","ｺﾞﾘｮｰｯ"]);
 
     //絵文字リアクションを追加
     bot.api.reactions.add({
