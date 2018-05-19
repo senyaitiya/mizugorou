@@ -56,19 +56,19 @@ controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'
 // 絵文字リアクション
 //=========================================================
 
-controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
+//controller.hears(['@Tsuruda', 'つる', 'ツル', 'ミズゴロウ', 'mizugorou'], 'direct_message,direct_mention,mention,ambient', function (bot, message) {
 
-    bot.reply(message, ["ｷｭｴｰ","ｺﾞﾛｰ！","ｺﾞﾛ！","ﾐｽﾞｺﾞﾛｰ","ｷｭｷｭ","ﾐｽﾞｰ" ,"ﾐｽﾞｰｯ","ｺﾞﾘｮｰ","ｺﾞﾘｮｰｯ"]);
+//    bot.reply(message, ["ｷｭｴｰ","ｺﾞﾛｰ！","ｺﾞﾛ！","ﾐｽﾞｺﾞﾛｰ","ｷｭｷｭ","ﾐｽﾞｰ" ,"ﾐｽﾞｰｯ","ｺﾞﾘｮｰ","ｺﾞﾘｮｰｯ"]);
 
     //絵文字リアクションを追加
-    bot.api.reactions.add({
-        timestamp: message.ts,
-        channel: message.channel,
-        name: 'mizugorou', // ここで絵文字名を指定します (例 : smilely, muscle など)
-    }, function (err, res) {
-        if (err) {
-            bot.botkit.log('Failed to add emoji reaction :(', err); // エラーが出たとき用の出力
-        }
-    });
+//    bot.api.reactions.add({
+//        timestamp: message.ts,
+//        channel: message.channel,
+//        name: 'mizugorou', // ここで絵文字名を指定します (例 : smilely, muscle など)
+//    }, function (err, res) {
+//        if (err) {
+//            bot.botkit.log('Failed to add emoji reaction :(', err); // エラーが出たとき用の出力
+//        }
+//    });
 
-});
+//});
